@@ -1,4 +1,3 @@
-# mongodb-pv.yaml
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -8,6 +7,4 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteOnce
-  nfs:
-    path: /your/nfs/path
-    server: your-nfs-server
+  

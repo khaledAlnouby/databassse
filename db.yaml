@@ -30,7 +30,7 @@ spec:
     spec:
       containers: # This is the container that will be created
         - name: mongodb-container
-          image: "quay.io/abdonassr85/db"
+          image: "quay.io/khaled033/database"
           ports: # This is where we will expose the port of the container to the outside world
             - containerPort: 27017
               name: mongodb
